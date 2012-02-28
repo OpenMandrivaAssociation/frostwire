@@ -47,10 +47,10 @@ export DONT_STRIP=1
 %__cat > %{buildroot}%{_datadir}/applications/%{name}.desktop << EOF
 [Desktop Entry]
 Encoding=UTF-8
-Name=Frostwire
+Name=FrostWire
 Comment=Gnutella Client
 Exec=%{_bindir}/%{name}
-Icon=%{name}.png
+Icon=%{name}
 Terminal=false
 Type=Application
 StartupNotify=true
