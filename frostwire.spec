@@ -82,3 +82,61 @@ EOF
 %{_datadir}/applications/%{name}.desktop
 
 
+
+
+%changelog
+* Tue Feb 28 2012 Andrey Bondrov <abondrov@mandriva.org> 5.3.2-1mdv2011.0
++ Revision: 781337
+- Small fixes to .desktop file
+- imported package frostwire
+
+
+* Tue Feb 28 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 5.3.2-1mdv2010.2
+- New version 5.3.2
+- Spec cleanup
+
+* Mon Oct 17 2011 Francesco Mancuso <mcfrank@tiscali.it> 5.1.5-69.2mib
+- New version 5.1.5
+- MIB (Mandriva International Backport)  - http://mib.pianetalinux.org/
+
+* Sat Sep 03 2011 Nicolo' Costanza <abitrules@yahoo.it> 5.1.4-69.1mib
++ Version: 5.1.4
+- MIB (Mandriva International Backport) - http://mib.pianetalinux.org/
+
+* Tue Jun 21 2011  <abitrules@yahoo.it> 4.21.8-69.1mib
++ Version: 4.21.8
+- MIB (Mandriva International Backport) - http://mib.pianetalinux.org/
+
+* Thu May 19 2011 Nicolo' Costanza <abitrules@yahoo.it> 4.21.7-69.1mib
++ Version: 4.21.7
+- MIB (Mandriva International Backport) - http://mib.pianetalinux.org/
+
+* Mon May 2 2011 Nicolo' Costanza <abitrules@yahoo.it> 4.21.6-69.1mib
++ Version: 4.21.6
+- MIB (Mandriva International Backport) - http://mib.pianetalinux.org/
+
+* Tue Jan 18 2011 Nicolo' Costanza <abitrules@yahoo.it> 4.21.2-69.1mib
++ Version: 4.21.2
+- MIB (Mandriva International Backport) - http://mib.pianetalinux.org/
+
+* Tue Mar 16 2010 Nicolo' Costanza <abitrules@yahoo.it> 4.20.3-69.1mib
++ Version: 4.20.3
+- MIB (Mandriva Italia Backport) - http://mib.pianetalinux.org/
+
+* Wed Feb 17 2010 Nicolo' Costanza <abitrules@yahoo.it> 4.18.6-69.1mib
++ Version: 4.18.6
+- MIB (Mandriva Italia Backport) - http://mib.pianetalinux.org/
+
+* Thu Dec 31 2009 Nicolo' Costanza <abitrules@yahoo.it> 4.18.5-69.1mib
++ Version: 4.18.5
+- MIB (Mandriva Italia Backport) - http://mib.pianetalinux.org/
+
+* Fri May 08 2009 Nicolo' Costanza <abitrules@yahoo.it> 4.18.0-69.1mib
++ Version: 4.18.0
+- MIB (Mandriva Italia Backport) - http://mib.pianetalinux.org/
+
+* Fri Mar 20 2009 Nicolo' Costanza <abitrules@yahoo.it> 4.17.1-69.1mib
++ Version: 4.17.1
+- First porting attempt for Mandriva from MIB
+- MIB (Mandriva Italia Backport) - http://mib.pianetalinux.org/
+
