@@ -2,7 +2,7 @@
 
 Summary:	Java-based BitTorrent client
 Name:		frostwire
-Version:	5.6.4
+Version:	5.7.1
 Release:	1
 License:	GPLv3+
 Group:		Networking/WWW
@@ -30,22 +30,20 @@ It is forked from Limewire and written in Java.
 %setup -q
 
 %build
-export LC_ALL=UTF-8
+export LC_ALL=en_US.utf-8
 ant everything
 
 #Copy frostwire.jar
 cp -p -v dist/*.jar lib/jars
 #Copy all component jars too
 cp -p -v components/*/dist/*.jar lib/jars
-#Final pack200 all the jars
-./resources/pack200.sh
 
 %install
 export DONT_STRIP=1
 
 mkdir -p %{buildroot}%{_datadir}/%{name} %{buildroot}%{_datadir}/applications %{buildroot}%{_iconsdir} %{buildroot}%{_bindir}
 
-install -m0644 lib/jars/*.pack %{buildroot}%{_datadir}/frostwire/
+install -m0644 lib/jars/*.jar %{buildroot}%{_datadir}/frostwire/
 install -m0755 resources/frostwire.sh %{buildroot}%{_datadir}/frostwire/
 install -m0644 resources/EULA.txt %{buildroot}%{_datadir}/frostwire/
 install -m0644 resources/VERSION %{buildroot}%{_datadir}/frostwire/
