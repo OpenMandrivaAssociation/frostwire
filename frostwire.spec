@@ -3,7 +3,7 @@
 Summary:	Java-based BitTorrent client
 Name:		frostwire
 Version:	5.7.1
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Networking/WWW
 Url:		http://www.frostwire.com/
