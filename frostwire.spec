@@ -6,7 +6,7 @@ Version:	5.7.3
 Release:	1
 License:	GPLv3+
 Group:		Networking/WWW
-Url:		http://www.frostwire.com/
+Url:		https://www.frostwire.com/
 Source0:	http://downloads.sourceforge.net/frostwire/frostwire_%{version}.orig.tar.gz
 BuildRequires:	ant
 BuildRequires:	locales
